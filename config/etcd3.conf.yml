@@ -1,0 +1,9 @@
+name: 'n3'
+data-dir: </path-to-dir>
+listen-peer-urls: http://<ip-address>:2582
+listen-client-urls: http://localhost:2381,http://<ip-address>:2381
+initial-advertise-peer-urls: http://<ip-address>:2582
+advertise-client-urls: http://<ip-address>:2381
+initial-cluster: n1=http://<ip-address>:2580,n2=http://<ip-address>:2581,n3=http://<ip-address>:2582
+initial-cluster-token: etcd-cluster-1
+initial-cluster-state: new
