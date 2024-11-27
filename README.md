@@ -6,8 +6,11 @@ It was done with a team of 4 for a Cloud Computing project at PES University.
 # Project Details
 The user interacts with a simple flask front end, where key values can be entered, deleted and listed out.<br />
 
-The backend takes care of storing the key values, it will connect to one of the nodes that are up in the cluster.
+The backend ensures:
+1. Storage of key-value pairs by connecting to one of the operational nodes in the etcd cluster.
+2. Replication of key-value pairs across the cluster for fault tolerance and consistency.
 
+## Architecture
 
 <img width="1126" alt="Screenshot 2024-10-16 at 2 44 32 PM" src="https://github.com/user-attachments/assets/37673271-2dc4-4cd3-8797-46528852d15a"><br />
 
